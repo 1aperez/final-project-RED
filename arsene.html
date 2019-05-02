@@ -4,10 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
     <title>blue rose</title>
 </head>
 <header>Arsene</header>
 <body>
-    <h1>asdf</h1>
+    <img src="" alt="">
+    <h1>info</h1>
+    <p> info i'll add later </p>
+
+
+    
+    <form  id="cart" method="GET" action="checkout.html" class="row" oninput="calculate ()">
+        Options:
+        <select name="options" id="options">
+        <option value="5.99">buy A</option>
+        <option value="9.99">buy b</option>
+        <option value="24.99">buy c</option>
+       </select>
+        Months: <input type= "number" id="time" value="12" min="0">
+        Total: <output id="result" name="out" for="Option time"></output>
+        <input type="Submit" value="Submit">
+
+       </form>
 </body>
 </html>

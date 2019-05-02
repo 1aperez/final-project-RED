@@ -24,7 +24,7 @@ div{
 /* Make the image to responsive */
 .image {
   display: block;
-  width: 50%;
+  width: 100%;
   height: auto;
 }
 
