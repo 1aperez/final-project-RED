@@ -4,13 +4,14 @@ header{
     color: red;
     font-family:sans-serif;
 }
-a{
+/*a{
   font-size: 105%
 
 }
 div{
     box-align:center;
-}
+    width: 25%;
+}*/
 
 {box-sizing: border-box}
 
@@ -47,4 +48,10 @@ div{
 /* When you mouse over the container, fade in the overlay title */
 .container:hover .overlay {
   opacity: 1;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
