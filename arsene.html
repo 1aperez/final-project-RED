@@ -14,29 +14,24 @@
     <img src="arsenep5.jpg" alt="avatar" class="center">
     <p> info i'll add later </p>
 
-       <div class="row">
-        <div class="testbx">
-          <h3 class="title">Option A</h3>
-          <p> 
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi magnam quas optio ut corporis eum inventore, ipsam ab hic fugit sint harum, natus beatae voluptatem cupiditate quos quia perspiciatis omnis?
-          </p>
-          <a class="price title" href="">$19.99</a>
-        </div>
-
-        <div class="testbx">
-          <h3 class="title">Option B</h3>
-          <p> 
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi magnam quas optio ut corporis eum inventore, ipsam ab hic fugit sint harum, natus beatae voluptatem cupiditate quos quia perspiciatis omnis?
-          </p>
-          <a class="price title" href="">$24.99</a>
-        </div>
-
-        <div class="testbx">
-          <h3 class="title">Option C</h3>
-          <p> 
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi magnam quas optio ut corporis eum inventore, ipsam ab hic fugit sint harum, natus beatae voluptatem cupiditate quos quia perspiciatis omnis?
-          </p>
-          <a class="price title" href="">$29.99</a>
+          <div class="row">
+              <div class="column" style="background-color:#aaa;">
+                <h2>option a</h2>
+                <p>Some text..</p>
+                <a class="price title" href="">$29.99</a>
+              </div>
+              <div class="column" style="background-color:#bbb;">
+                <h2>option b</h2>
+                <p>Some text..</p>
+                <a class="price title" href="">$24.99</a>
+              </div>
+              <div class="column" style="background-color:#ccc;">
+                <h2>option c</h2>
+                <p>Some text..</p>
+                <a class="price title" href="">$19.99</a>
+              </div>
+            </div>
+            
 
           <form  id="cart" method="GET" action="checkout.html" class="row" oninput="calculate ()">
             Options:
@@ -59,6 +54,7 @@
                let result = doc.getElementById("result");
                result.value = "$" + Number(parseFloat(option.value) * parseInt(time.value)) .toPrecision(5);
              }
+            
            </script>
         </div>    
     </div>
