@@ -29,12 +29,15 @@ h1{
     width: 33.33%;
    height: 33%;
   }
+
+  
   
   /* Clear floats after the columns */
   .row:after {
     content: "";
     display: table;
     clear: both;
+    padding: 2%;
   }
   @media screen and (max-width: 600px) {
     .column {
