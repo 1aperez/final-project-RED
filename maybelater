@@ -1,0 +1,23 @@
+<div class="row">
+        <div class="column">
+          <h3 class="title">Option A</h3>
+          <p> 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi magnam quas optio ut corporis eum inventore, ipsam ab hic fugit sint harum, natus beatae voluptatem cupiditate quos quia perspiciatis omnis?
+          </p>
+          
+        </div>
+
+        <div class="column">   <h3 class="title">Option B</h3>
+          <p> 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi magnam quas optio ut corporis eum inventore, ipsam ab hic fugit sint harum, natus beatae voluptatem cupiditate quos quia perspiciatis omnis?
+          </p>
+         
+        </div>
+
+        <div class="column">   <h3 class="title">Option C</h3>
+          <p> 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi magnam quas optio ut corporis eum inventore, ipsam ab hic fugit sint harum, natus beatae voluptatem cupiditate quos quia perspiciatis omnis?
+          </p>
+
+          random one off file
+          
