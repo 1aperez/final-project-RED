@@ -36,12 +36,11 @@
           <form  id="cart" method="GET" action="checkout.html" class="row" oninput="calculate ()">
             Options:
             <select name="options" id="options">
-            <option value="5.99">buy A</option>
-            <option value="9.99">buy b</option>
-            <option value="24.99">buy c</option>
+            <option value="5.99">buy 1 month</option>
+            <option value="9.99">buy 2 months</option>
+            <option value="24.99">buy 3 months</option>
            </select>
-            Months: <input type= "number" id="time" value="12" min="0">
-            Total: <output id="result" name="out" for="Option time"></output>
+            Months: <input type= "number" id="time" value="1" min="1" max="3">
             <input type="Submit" value="Submit">
            </form>
 

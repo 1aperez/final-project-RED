@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" >
     <link rel="stylesheet" href="styles.css">
-    <title>blue rose</title>
+    <title>lady</title>
 </head>
 <header>Palico</header>
 <body>
@@ -34,12 +34,16 @@
     </div>
             
 
-          <form  id="cart" method="GET" action="checkout.html" class="row" oninput="calculate ()">
-
-            Months: <input type= "number" id="time" value="12" min="0">
-            <input type="Submit" value="Submit">
-           </form>
-
+    <form  id="cart" method="GET" action="checkout.html" class="row" oninput="calculate ()">
+      Options:
+      <select name="options" id="options">
+      <option value="5.99">buy 1 month</option>
+      <option value="9.99">buy 2 month</option>
+      <option value="24.99">buy 3 months</option>
+     </select>
+      Months: <input type= "number" id="time" value="1" min="1" max="3">
+      <input type="Submit" value="Submit">
+     </form>
            
            <script>
              function calculate(){
