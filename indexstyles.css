@@ -60,3 +60,12 @@ p{
   margin-right: 7%;
   width: 50%;
 }
+
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
